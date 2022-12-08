@@ -26,22 +26,7 @@ function TimeLine() {
                             </p>
                         </div>
                     </VerticalTimelineElement>
-                    <VerticalTimelineElement
-                        className="vertical-timeline-element--work"
-                        contentStyle={{ background: '#f0f0f0', color: '#ffffff' }}
-                        contentArrowStyle={{ borderRight: '7px solid  #f0f0f0' }}
-                        date="2021"
-                        iconStyle={{ background: '#202020', color: '#f0f0f0' }}
-                        icon={<SchoolIcon />}
-                    >
-                        <div style={{ color: '#202020' }}>
-                            <h3 className="vertical-timeline-element-title">GUJCET EXAM</h3>
-                            <h4 className="vertical-timeline-element-subtitle">12th</h4>
-                            <p>
-                                I got 99.84 PR in Gujcet and secure first rank in district.
-                            </p>
-                        </div>
-                    </VerticalTimelineElement>
+                    
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: '#f0f0f0', color: '#ffffff' }}
