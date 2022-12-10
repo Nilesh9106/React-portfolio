@@ -19,8 +19,8 @@ const Hero = () => {
             </h1>
             <p className="mb-8 leading-relaxed sm:text-3xl text-2xl">I am programmer</p>
             <div className="flex justify-center">
-              <Button style={{background:'#202020',color:'#ffffff',margin:'2px 10px'}} href='#About' size='large' variant='contained'>About Me</Button>
-              <Button style={{background:'#ffffff',color:'#202020',margin:'2px 10px'}} href='#Contact' size='large' variant='contained'>Contact Me</Button>
+              <Button style={{background:'#202020',color:'#ffffff',margin:'2px 10px'}} href='#Contact' size='large' variant='contained'>Contact Me</Button>
+              <Button style={{background:'#ffffff',color:'#202020',margin:'2px 10px'}} href='/resume.pdf' target={"_blank"} size='large' variant='contained'>Resume</Button>
               
             </div>
           </div>
