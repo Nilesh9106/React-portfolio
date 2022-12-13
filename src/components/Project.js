@@ -38,7 +38,7 @@ const Project = () => {
                 <div className="container md:px-5 py-16 mx-auto">
                     <div className="flex flex-wrap justify-center -mx-4 -mb-10 text-center">
                         <Comp src={p1} title='Shopyy : Ecommerce store' description='An E-Commerce Website made with php,bootstrap css and javascript' github='https://github.com/Nilesh9106/e-commerce' live='http://shopyy.epizy.com/' />
-                        <Comp src={p2} title='Resume Builder' description='Resume Builder made with html, javascript' github='https://github.com/Nilesh9106/Resume-builder' live='http://resume-builder.lovestoblog.com/' />
+                        <Comp src={p2} title='Resume Builder' description='Resume Builder made with html, javascript' github='https://github.com/Nilesh9106/Resume-builder' live='http://resume-build.epizy.com/' />
                         <Comp src={p3} title='Music Player' description='responsive Music player made with html,css,javascript' github='https://github.com/Nilesh9106/music-player' live='https://nilesh9106.github.io/music-player/' />
                     </div>
                 </div>
