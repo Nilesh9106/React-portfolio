@@ -5,6 +5,7 @@ import React from 'react'
 import p1 from './../img/p1.png'
 import p2 from './../img/p2.png'
 import p3 from './../img/p3.png'
+import p4 from './../img/p4.png'
 
 
 import { AnimationOnScroll } from 'react-animation-on-scroll';
@@ -15,7 +16,7 @@ const Comp = (props) => {
                 <AnimationOnScroll animateOnce={true} duration={0.7} offset='160' animateIn='animate__fadeInUp'>
                     <div className="hover:scale-105 transition-all duration-300 rounded-lg lg:h-96 md:h-80 sm:h-64 overflow-hidden">
                         <a href={props.live}>
-                        <img alt="content" className="object-cover object-center h-full w-full" src={props.src} />
+                        <img alt="content" className="object-cover object-top h-full w-full" src={props.src} />
                         </a>
                     </div>
                     <h2 className="title-font text-2xl font-medium text-gray-100 mt-6 mb-3">{props.title}</h2>
@@ -28,6 +29,38 @@ const Comp = (props) => {
 
     )
 }
+
+const projects = [
+    {
+        src:p1,
+        title:'Shopyy : Ecommerce store',
+        description:'An E-Commerce Website made with php,bootstrap css and javascript',
+        github:'https://github.com/Nilesh9106/e-commerce',
+        live:'http://shopyy.epizy.com/'
+    },
+    {
+        src:p2,
+        title:'Resume Builder',
+        description:'Resume Builder made with html, javascript in DUhacks 1.0',
+        github:'https://github.com/Nilesh9106/Resume-builder',
+        live:'http://resume-build.epizy.com/',
+    },
+    {
+        src:p3,
+        title:'Music Player',
+        description:'responsive Music player made with html,css,javascript',
+        github:'https://github.com/Nilesh9106/music-player',
+        live:'https://nilesh9106.github.io/music-player/',
+    },
+    {
+        src:p4,
+        title:'DDU Notes',
+        description:'Notes Sharing Website for ddu student only : made in DUHacks 2.0',
+        github:'https://github.com/Nilesh9106/ddu-notes',
+        live:'http://dhrumilpatel1.pythonanywhere.com/'
+    }
+]
+
 const Project = () => {
     return (
         <>
@@ -37,9 +70,11 @@ const Project = () => {
 
                 <div className="container md:px-5 py-16 mx-auto">
                     <div className="flex flex-wrap justify-center -mx-4 -mb-10 text-center">
-                        <Comp src={p1} title='Shopyy : Ecommerce store' description='An E-Commerce Website made with php,bootstrap css and javascript' github='https://github.com/Nilesh9106/e-commerce' live='http://shopyy.epizy.com/' />
-                        <Comp src={p2} title='Resume Builder' description='Resume Builder made with html, javascript' github='https://github.com/Nilesh9106/Resume-builder' live='http://resume-build.epizy.com/' />
-                        <Comp src={p3} title='Music Player' description='responsive Music player made with html,css,javascript' github='https://github.com/Nilesh9106/music-player' live='https://nilesh9106.github.io/music-player/' />
+                        {projects.map((data,index)=>{
+                            return(
+                                <Comp key={index} {...data}  />
+                            )
+                        })}
                     </div>
                 </div>
             </section>

@@ -56,7 +56,7 @@ const About = () => {
                                 </div>
                             </div>
                             <div className="sm:w-2/3 sm:pl-8 sm:py-8  sm:border-l border-gray-800 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
-                                <p className="leading-relaxed text-lg mb-4">hey ,My name is Nilesh and i'm web developer and competitive programmer. I know many language like php, c++,c , html, css, javascript etc. I join every contest in codechef , hackerrank, codeforces etc. I had created e-commerce website using php, mysql and javascript as project.I Pass out my 12th with 92% and I get 111.5 marks in GUJCET .now i am studying at Dharmsinh Desai University in Computer engineering.</p>
+                                <p className="leading-relaxed text-lg mb-4">Welcome to my portfolio website. My name is Nilesh.  I am a web developer and competitive Programmer.Throughout my career, I have worked on various projects and initiatives that have helped me Sharp my skills in web development. I have extensive knowledge of programming languages including C++, java, Python, Javascript, PHP, Node js, ReactJs, NextJS etc. I have used my programming skills to develop many project which given below.</p>
                                 <nav aria-label="main mailbox folders" className='md:mt-12'>
                                     <List>
                                         <ListItem className='hover:bg-[#77777726]' disablePadding>
