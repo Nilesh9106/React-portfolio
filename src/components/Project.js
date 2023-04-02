@@ -6,6 +6,7 @@ import p1 from './../img/p1.png'
 import p2 from './../img/p2.png'
 import p3 from './../img/p3.png'
 import p4 from './../img/p4.png'
+import p5 from './../img/p5.png'
 
 
 import { AnimationOnScroll } from 'react-animation-on-scroll';
@@ -31,6 +32,13 @@ const Comp = (props) => {
 }
 
 const projects = [
+    {
+        src:p5,
+        title:'Be a Blogger : blog application',
+        description:'A Blog application made with django where user can write and read blog with full functionalities.',
+        github:'https://github.com/Nilesh9106/django-blog',
+        live:'https://beablogger.pythonanywhere.com/'
+    },
     {
         src:p1,
         title:'Shopyy : Ecommerce store',
