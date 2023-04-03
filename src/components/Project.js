@@ -13,7 +13,7 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 const Comp = (props) => {
     return (
         <>
-            <div className="lg:w-3/5  mb-10 md:px-4">
+            <div className="xl:w-1/2 lg:w-4/5 md:w-full  mb-10 md:px-4">
                 <AnimationOnScroll animateOnce={true} duration={0.7} offset='160' animateIn='animate__fadeInUp'>
                     <div className="hover:scale-105 transition-all duration-300 rounded-lg lg:h-96 md:h-80 sm:h-64 overflow-hidden">
                         <a href={props.live}>
@@ -77,7 +77,7 @@ const Project = () => {
                 <div className="w-36 mx-auto h-1 bg-gray-200 rounded mt-3 mb-4"></div>
 
                 <div className="container md:px-5 py-16 mx-auto">
-                    <div className="flex flex-wrap justify-center -mx-4 -mb-10 text-center">
+                    <div className="flex  flex-wrap justify-center -mx-4 -mb-10 text-center">
                         {projects.map((data,index)=>{
                             return(
                                 <Comp key={index} {...data}  />

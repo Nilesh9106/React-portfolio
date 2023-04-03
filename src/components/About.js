@@ -2,10 +2,9 @@ import { Inbox } from '@mui/icons-material'
 import { ListItemIcon, ListItemButton, ListItem, ListItemText, List } from '@mui/material'
 import React from 'react'
 import nilesh from './../img/nilesh.png'
-import { SiCodechef, SiLinkedin } from 'react-icons/si'
+import { SiCodechef, SiLeetcode,SiLinkedin } from 'react-icons/si'
 import { FaGithub } from 'react-icons/fa'
 import { BsInstagram } from 'react-icons/bs'
-import { AiOutlineFundProjectionScreen } from 'react-icons/ai'
 
 const About = () => {
 
@@ -60,6 +59,14 @@ const About = () => {
                                 <nav aria-label="main mailbox folders" className='md:mt-12'>
                                     <List>
                                         <ListItem className='hover:bg-[#77777726]' disablePadding>
+                                            <ListItemButton target={'_blank'} href='https://leetcode.com/nilesh_2003/'>
+                                                <ListItemIcon>
+                                                    <SiLeetcode style={{ color: 'white', fontSize: '20px' }} />
+                                                </ListItemIcon>
+                                                <ListItemText primary="LeetCode" />
+                                            </ListItemButton>
+                                        </ListItem>
+                                        <ListItem className='hover:bg-[#77777726]' disablePadding>
                                             <ListItemButton target={'_blank'} href='https://www.linkedin.com/in/nileshdarji2003/'>
                                                 <ListItemIcon>
                                                     <SiLinkedin style={{ color: 'white', fontSize: '20px' }} />
@@ -75,15 +82,7 @@ const About = () => {
                                                 <ListItemText primary="Instagram" />
                                             </ListItemButton>
                                         </ListItem>
-                                        <ListItem className='hover:bg-[#77777726]' disablePadding>
-                                            <ListItemButton href='#Project'>
-                                                <ListItemIcon>
-                                                    <AiOutlineFundProjectionScreen style={{ color: 'white', fontSize: '20px' }} />
-
-                                                </ListItemIcon>
-                                                <ListItemText primary="Projects" />
-                                            </ListItemButton>
-                                        </ListItem>
+                                        
                                     </List>
                                 </nav>
                             </div>
