@@ -55,8 +55,8 @@ function TimeLine() {
                         <div style={{ color: '#202020' }}>
                             <h3 className="vertical-timeline-element-title">Dharmsinh Desai University</h3>
                             <p>
-                                Sem 1 : 8.84 cpi <br />
-                                sem 2 : 9.44 cpi <br />
+                                Year 1 : 9.14 cpi <br />
+                                Year 2 : 9.07 cpi <br />
                                 Now I am pursuing B.Tech in Computer Engineering .
                             </p>
                         </div>
